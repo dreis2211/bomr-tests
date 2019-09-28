@@ -10,6 +10,7 @@
 
 	<properties>
 		<maven-invoker-plugin.version>3.2.1</maven-invoker-plugin.version>
+		<maven-pmd-plugin.version>3.10.0</maven-pmd-plugin.version>
 	</properties>
 
 	<build>
@@ -19,6 +20,11 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-invoker-plugin</artifactId>
 					<version>${maven-invoker-plugin.version}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-pmd-plugin</artifactId>
+					<version>${maven-pmd-plugin.version}</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
