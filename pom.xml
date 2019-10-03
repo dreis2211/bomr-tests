@@ -10,7 +10,7 @@
 
 	<properties>
 		<maven-invoker-plugin.version>3.2.1</maven-invoker-plugin.version>
-		<maven-pmd-plugin.version>3.12.0</maven-pmd-plugin.version>
+		<maven-pmd-plugin.version>3.10.0</maven-pmd-plugin.version>
 	</properties>
 
 	<build>
